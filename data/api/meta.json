@@ -1,0 +1,54 @@
+{
+  "name": "My Home Korean Bull",
+  "author": "GimYoungPhil <youngphil.gim@gmail.com>",
+  "sign": {
+    "title": "내고향 한우방",
+    "subTitle": "바로 구워 먹는 이맛!"
+  },
+  "menus": [
+    {
+      "name": "주메뉴",
+      "contents": [
+        {
+          "name": "안심",
+          "price": 35000
+        },
+        {
+          "name": "등심",
+          "price": 35000
+        },
+        {
+          "name": "사시미",
+          "price": 35000
+        },
+        {
+          "name": "육회",
+          "price": 35000
+        }
+      ]
+    },
+    {
+      "name": "사이드",
+      "contents": [
+        {
+          "name": "밥, 찌개",
+          "price": 1000
+        },
+        {
+          "name": "1인 세팅비",
+          "price": 3000
+        }
+      ]
+    },
+    {
+      "name": "술,음료",
+      "contents": [
+        {
+          "name": "안심",
+          "price": 35000,
+          "": ""
+        }
+      ]
+    }
+  ]
+}
