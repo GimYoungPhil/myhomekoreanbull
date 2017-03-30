@@ -1,0 +1,56 @@
+{
+  "name": "My Home Korean Bull",
+  "author": "GimYoungPhil <youngphil.gim@gmail.com>",
+  "sign": {
+    "title": "내고향 한우방",
+    "subTitle": "참숯에 구워 먹는 이맛!"
+  },
+  "menus": [
+    {
+      "name": "특수모둠",
+      "weight": 600,
+      "price": 54000
+    },
+    {
+      "name": "생등심",
+      "weight": 600,
+      "price": 42000
+    },
+    {
+      "name": "양념육회",
+      "weight": 300,
+      "price": 20000
+    },
+    {
+      "name": "사시미",
+      "weight": 300,
+      "price": 20000
+    }
+  ],
+  "history": [
+    {
+      "name": "삼일슈퍼 정육코너",
+      "location": "은평구 역촌동",
+      "period": "1982 ~ 1983"
+    },
+    {
+      "name": "장미정육점",
+      "location": "은평구 갈현동",
+      "period": "1986 ~ 1988"
+    },
+    {
+      "name": "장미정육점",
+      "location": "은평구 신사동",
+      "period": "1988 ~ 2009"
+    },
+    {
+      "name": "내고향 한우방",
+      "location": "은평구 신사동",
+      "period": "2009 ~ 현재"
+    }
+  ],
+  "location": {
+    "address": "서울 은평구 신사1동 18-44 1층",
+    "tel": "02-385-3293"
+  }
+}

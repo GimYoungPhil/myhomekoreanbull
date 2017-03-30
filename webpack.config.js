@@ -60,6 +60,7 @@ module.exports = {
   },
 
   devServer: {
+    contentBase: [path.resolve(__dirname, './dist'), path.resolve(__dirname, './data')],
     historyApiFallback: true,
     noInfo: false,
     host: '0.0.0.0'
