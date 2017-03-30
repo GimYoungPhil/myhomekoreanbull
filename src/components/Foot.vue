@@ -1,20 +1,12 @@
 <template lang="html">
   <div class="jumbotron jumbotron-fluid mb-0">
     <div class="container">
-      <div class="content has-text-left">
-        <p>Colophon</p>
-        <p>
-          Built with <a href="https://vuejs.org/" target="_blank">Vue.js</a>,
-          <a href="https://v4-alpha.getbootstrap.com/" target="_blank">Bootstrap</a> and
-          served on <a href="https://github.com/myhomekoreanbull/myhomekoreanbull" target="_blank">GitHub</a>,
-          <a href="http://surge.sh/" target="_blank">Surge</a>.
-          <br/>
-          Text is set in Google Font’s
-          <a href="https://googlefonts.github.io/japanese/" target="_blank">Japanese Early Access</a>
-        </p>
-        <p>
+      <div class="content text-left">
+        <p class="lead mb-0">{{ location.address }}</p>
+        <p class="lead"><a href="tel:02-385-3293">{{ location.tel }}</a></p>
+        <p class="mb-0">
           <em>Copyright © 2017</em>
-          <a href="mailto:youngphil.gim@gmail.com" target="_blank">Gim YoungPhil</a>
+          내고향 한우방 정육식당
         </p>
       </div>
     </div>
@@ -23,6 +15,7 @@
 
 <script>
 export default {
+  props: ['location']
 }
 </script>
 

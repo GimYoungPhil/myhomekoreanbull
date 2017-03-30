@@ -11,7 +11,7 @@ module.exports = {
   },
 
   output: {
-    path: path.resolve(__dirname, '../dist'),
+    path: path.resolve(__dirname, './dist'),
     filename: '[name].js',
     chunkFilename: '[id].chunk.js'
   },
@@ -85,7 +85,7 @@ if (process.env.NODE_ENV === 'production') {
   module.exports.devtool = '#source-map';
 
   module.exports.output = {
-    path: path.resolve(__dirname, '../dist'),
+    path: path.resolve(__dirname, './dist'),
     filename: '[name].[chunkhash].js',
     publicPath: '/'
   },

@@ -1,13 +1,11 @@
 <template lang="html">
   <div class="container my-5" id="history">
-    <h1>연혁</h1>
-    <table class="table">
-      <tr v-for="record in history">
-        <td>{{ record.name }}</td>
-        <td>{{ record.location }}</td>
-        <td>{{ record.period }}</td>
-      </tr>
-    </table>
+    <blockquote class="blockquote " v-for="(record, index) in history" key="index">
+      <p class="mb-0">{{ record.name }} <small>{{ record.location }}</small></p>
+      <footer class="blockquote-footer">
+        <cite title="Source Title">{{ record.period }}</cite>
+      </footer>
+    </blockquote>
   </div>
 </template>
 

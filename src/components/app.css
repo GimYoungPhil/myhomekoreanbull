@@ -1,0 +1,12 @@
+/*@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);*/
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(//fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+
+body {
+  /*font-family: 'Nanum Gothic', serif;*/
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.wf-jeju {
+  font-family: 'Jeju Hallasan', serif;
+}

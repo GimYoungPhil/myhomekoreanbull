@@ -1,7 +1,7 @@
 <template lang="html">
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
-      <h1 class="display-3">{{ sign.title }}</h1>
+      <h1 class="display-2 wf-jeju">{{ sign.title }}</h1>
       <p class="lead">{{ sign.subTitle }}</p>
     </div>
   </div>

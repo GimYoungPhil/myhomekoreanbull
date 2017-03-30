@@ -8,45 +8,73 @@
   "menus": [
     {
       "name": "특수모둠",
+      "origin": "국내산 한우",
       "weight": 600,
       "price": 54000
     },
     {
       "name": "생등심",
+      "origin": "국내산 한우",
       "weight": 600,
       "price": 42000
     },
     {
       "name": "양념육회",
+      "origin": "국내산 한우",
       "weight": 300,
       "price": 20000
     },
     {
-      "name": "사시미",
+      "name": "육사시미",
+      "origin": "국내산 한우",
       "weight": 300,
       "price": 20000
+    },
+    {
+      "name": "오겹목살",
+      "origin": "국내산 암돼지",
+      "weight": 600,
+      "price": 15000
+    }
+  ],
+  "gallry": [
+    {
+      "src": "./images/p1.jpg",
+      "alt": "특수모둠"
+    },
+    {
+      "src": "./images/p2.jpg",
+      "alt": "생등심"
+    },
+    {
+      "src": "./images/p3.jpg",
+      "alt": "양념육회"
+    },
+    {
+      "src": "./images/p4.jpg",
+      "alt": "간판"
     }
   ],
   "history": [
     {
       "name": "삼일슈퍼 정육코너",
-      "location": "은평구 역촌동",
+      "location": "역촌동",
       "period": "1982 ~ 1983"
     },
     {
       "name": "장미정육점",
-      "location": "은평구 갈현동",
+      "location": "갈현동",
       "period": "1986 ~ 1988"
     },
     {
       "name": "장미정육점",
-      "location": "은평구 신사동",
+      "location": "신사동",
       "period": "1988 ~ 2009"
     },
     {
       "name": "내고향 한우방",
-      "location": "은평구 신사동",
-      "period": "2009 ~ 현재"
+      "location": "신사동",
+      "period": "2009 ~ 운영중"
     }
   ],
   "location": {
